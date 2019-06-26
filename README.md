@@ -8,7 +8,7 @@ Future Plan: To make input more than a word and also to make the checker check s
 
 Install packages required by trainer
 ```angular2html
-$ pip install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
 Then run
 ```angular2html
