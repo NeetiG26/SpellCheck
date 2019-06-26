@@ -15,4 +15,4 @@ def spellCorrect():
 	return render_template('page.html', candidates = candidate, segments=segments )
 
 if __name__ == '__main__':
-   app.run(debug = True)
+   app.run(debug = True, host='0.0.0.0', port=8080)
