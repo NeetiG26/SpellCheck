@@ -85,12 +85,3 @@ def segment(text):
         candidates = ([first] + segment(rest) 
                       for (first, rest) in splits(text, 1))
         return max(candidates, key=Pwords)
-
-
-
-
-if __name__ == '__main__':
-    print(candidates("hume"))
-    print(segment('1998-splot-assignment'))
-    for ele in (segment('humeassignment')):
-        print(ele)
